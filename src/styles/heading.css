@@ -1,0 +1,18 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading img {
+    width: 8em;
+}
+
+.heading h1 {
+    font-size: 3em;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

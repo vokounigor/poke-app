@@ -1,0 +1,48 @@
+.poke {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    min-width: 9em;
+    min-height: 8em;
+    padding-bottom: 1em;
+    cursor: pointer;
+}
+
+.poke p {
+    color: white;
+}
+
+.poke img {
+    position: relative;
+    width: 100%;
+}
+
+.poke.Bulbasaur {
+    background-color: #2ecc71;
+}
+
+.poke.Bulbasaur:hover {
+    background-color: #1f924f;
+}
+
+.poke.Charmander {
+    background-color: #e74c3c;
+}
+
+.poke.Charmander:hover {
+    background-color: #ac392c;
+}
+
+.poke.Squirtle {
+    background-color: #3498db;
+}
+
+.poke.Squirtle:hover {
+    background-color: #2879af;
+}
+
+.poke.Bulbasaur:hover, .poke.Charmander:hover, .poke.Squirtle:hover {
+    transition: background-color 250ms ease-in-out;
+}

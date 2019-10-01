@@ -1,0 +1,50 @@
+.main__content .subt {
+    color: #545353;
+    font-size: 1.2em;
+    margin-top: .5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.starter__pokemon {
+    width: 70%;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn__wrap {
+    margin-top: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__wrap > a {
+    color: white;
+}
+
+.btn {
+    padding: .5em 1.3em;
+    display: inline-block;
+    background-color: #8c2d23;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: background-color 250ms ease-out;
+    background-color: #611e17;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500&display=swap');
+
+*, *:after, *:before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --padding: 4%;
+  --border-cl: rgb(80, 80, 80);
+}
+
+html {
+  height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  padding: var(--padding);
+  background-image: url('./assets/background.png');
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+.main__content {
+  background-color: transparent;
+  color: #373737;
+  border-top: 1px solid var(--border-cl);
+  border-right: 1px solid var(--border-cl);
+  border-bottom: 1px solid var(--border-cl);
+  padding: 2em;
+  overflow: hidden;
+}
+
+/* For image middle line to be centered */
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+}

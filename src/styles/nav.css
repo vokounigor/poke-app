@@ -1,0 +1,41 @@
+.nav {
+    background-color: #b93c2f;
+    color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li {
+    width: 100%;
+    padding: .8em;
+    margin: .2em 0;
+    background-color: #8C2D23;
+    display: inline-block;
+    cursor: pointer;
+}
+
+ul li:hover {
+    background-color: rgb(247, 77, 58);
+    transition: background-color 250ms ease-out;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 1920px) {
+    .nav {
+        font-size: 20px;
+    }
+}
